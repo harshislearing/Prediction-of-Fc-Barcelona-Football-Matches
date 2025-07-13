@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official FC Barcelona fan page. Explore the club's history, statistics, and predictions.">
+    <title>FC Barcelona</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='prediction.css') }}">
+</head>
+<body>
+    <header>
+        <div class="navbar"> 
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/club">CLUB</a></li>
+                    <li><a href="/visualization">VISUALIZATION</a></li>
+                    <li><a href="/prediction">PREDICTION</a></li>
+                </ul>
+            </nav>
+            <div class="logo-top-right">
+                <img src="{{ url_for('static', filename='images/barcelona.png') }}" alt="FC Barcelona Logo">
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="overlay">
+            <div class="banner-content">
+                <h1>Match Prediction</h1>
+                <form id="predictionForm">
+                    <label for="opponent_name">Opponent Name:</label>
+                    <input type="text" id="opponent_name" name="opponent_name" required>
+                    <label for="home_or_away">Home or Away:</label>
+                    <select id="home_or_away" name="home_or_away" required>
+                        <option value="Home">Home</option>
+                        <option value="Away">Away</option>
+                    </select>
+                    <button type="submit">Predict</button>
+                </form>
+                <div id="predictionResult"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const opponentName = document.getElementById('opponent_name').value;
+            const homeOrAway = document.getElementById('home_or_away').value;
+    
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    opponent_name: opponentName,
+                    home_or_away: homeOrAway
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('predictionResult');
+                if (data.error) {
+                    resultDiv.innerHTML = `<p style="color: red;">${data.error}</p>`;
+                } else {
+                    resultDiv.innerHTML = `
+                        <p>Win: ${(data.Win * 100).toFixed(2)}%</p>
+                        <p>Draw: ${(data.Draw * 100).toFixed(2)}%</p>
+                        <p>Loss: ${(data.Loss * 100).toFixed(2)}%</p>
+                    `;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+    
+   
+    
+</body>
+</html>

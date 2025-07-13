@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, blue, red);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(1, 2, 37, 0.8);
+    padding: 15px 30px;
+    position: relative;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+.navbar ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#ffcc00 ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+
+.logo-top-right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.logo-top-right img {
+    width: 60px;
+    height: auto;
+}
+
+.banner {
+    text-align: center;
+    padding: 306.5px 0;
+    position: relative;
+    background: rgba(0, 0, 0, 0.699); /* Semi-transparent overlay */
+    background-image: url('images/camp_nou.png'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.774); /* Dark semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 3rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner-content label {
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.banner-content input, .banner-content select {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #7e9400;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-content input:focus, .banner-content select:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.6);
+    outline: none;
+}
+
+.banner-content button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #00467f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.banner-content button:hover {
+    background: #003366;
+    transform: scale(1.05);
+}
+
+#predictionResult {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+#predictionResult p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#predictionResult p span {
+    color: #ffcc00;
+    font-size: 1.3rem;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .logo-top-right img {
+        width: 50px;
+    }
+}

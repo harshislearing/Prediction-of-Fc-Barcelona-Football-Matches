@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, blue, red);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(1, 2, 37, 0.8);
+    padding: 15px 30px;
+    position: relative;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+.navbar ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#ffcc00 ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+
+.logo-top-right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.logo-top-right img {
+    width: 60px;
+    height: auto;
+}
+
+
+/* Banner styles */
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #000000 0%, #1a1a2e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.powerbi-container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.powerbi-visual {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+}
+
+.powerbi-visual:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 40px rgba(255, 21, 0, 0.5);
+}
+
+
+.visualization-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ea2020;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.visualization-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: #dd0707;
+    border-radius: 3px;
+}
+
+/* Responsive adjustment for the title */
+@media (max-width: 768px) {
+    .visualization-title {
+        font-size: 2rem;
+    }
+}
+
+
+.trophies {
+    text-align: center;
+    margin: 0px 0;
+    background: url('images/trophies.png') no-repeat center center/cover;
+    padding: 70px 0;
+}
+
+.trophies h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 31, 91, 0.8);
+    padding: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .logo-top-right img {
+        width: 50px;
+    }
+}

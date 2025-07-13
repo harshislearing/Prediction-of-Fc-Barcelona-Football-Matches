@@ -1,0 +1,123 @@
+﻿MATCH_ID,DATE,COMPETITION,ROUND,HOME_OR_AWAY,OPPONENT,GOALS_SCORED,GOALS_CONCEDED,POSSESSION,SHOTS_ON_TARGET,PASS_ACCURACY,EXPECTED_GOALS,MATCH_OUTCOME
+1,04-01-2023,Copa del Rey,Round of 32,Away,Intercity,4,3,77%,10,90%,2.6,Win
+2,08-01-2023,La Liga,Matchweek 16,Away,Atletico Madrid,1,0,58%,2,85%,0.7,Win
+3,12-01-2023,Supercopa,Semi finals,Away,Real Betis,2,2,61%,6,87%,1.2,Draw
+4,15-01-2023,Supercopa,Finals,Away,Real Madrid,3,1,54%,6,90%,1.9,Win
+5,19-01-2023,Copa del Rey,Round of 16,Away,AD Ceuta,5,0,65%,7,91%,2.7,Win
+6,22-01-2023,La Liga,Matchweek 18,Home,Getafe,1,0,67%,4,87%,0.7,Win
+7,25-01-2023,Copa del Rey,Quarter finals,Home,Real Sociedad,1,0,74%,6,89%,1.4,Win
+8,28-01-2023,La Liga,Matchweek 19,Away,Girona,1,0,59%,3,85%,1.1,Win
+9,01-02-2023,La Liga,Matchweek 17,Away,Real Betis,2,1,63%,3,86%,1.9,Win
+10,05-02-2023,La Liga,Matchweek 20,Home,Sevilla,3,0,65%,7,88%,2.7,Win
+11,12-02-2023,La Liga,Matchweek 21,Away,Villarreal,1,0,46%,4,78%,1.7,Win
+12,16-02-2023,Europa Lg,Play offs,Home,Man Utd,2,2,60%,8,80%,1.1,Draw
+13,19-02-2023,La Liga,Matchweek 22,Home,Cadiz,2,0,64%,4,89%,2.2,Win
+14,23-02-2023,Europa Lg,Play offs,Away,Man Utd,1,2,57%,5,72%,1.2,Loss
+15,26-02-2023,La Liga,Matchweek 23,Away,Almeria,0,1,72%,1,84%,1.4,Loss
+16,02-03-2023,Copa del Rey,Semi finals,Away,Real Madrid,1,0,35%,2,85%,0.8,Win
+17,05-03-2023,La Liga,Matchweek 24,Home,Valencia,1,0,53%,4,82%,1.8,Win
+18,12-03-2023,La Liga,Matchweek 25,Away,Athletic Club,1,0,62%,2,84%,0.9,Win
+19,19-03-2023,La Liga,Matchweek 26,Home,Real Madrid,2,1,54%,7,85%,1.6,Win
+20,01-04-2023,La Liga,Matchweek 27,Away,Elche,4,0,59%,5,85%,1.7,Win
+21,05-04-2023,Copa del Rey,Semi finals,Home,Real Madrid,0,4,53%,5,87%,1.1,Loss
+22,10-04-2023,La Liga,Matchweek 28,Home,Girona,0,0,59%,3,83%,1.3,Draw
+23,16-04-2023,La Liga,Matchweek 29,Away,Getafe,0,0,65%,3,79%,1.5,Draw
+24,23-04-2023,La Liga,Matchweek 30,Home,Atletico Madrid,1,0,62%,4,85%,1.8,Win
+25,26-04-2023,La Liga,Matchweek 31,Away,Rayo Vallecano,1,2,60%,5,78%,0.9,Loss
+26,29-04-2023,La Liga,Matchweek 32,Home,Real Betis,4,0,67%,6,87%,3.1,Win
+27,02-05-2023,La Liga,Matchweek 33,Home,Osasuna,1,0,76%,4,85%,2.8,Win
+28,14-05-2023,La Liga,Matchweek 34,Away,Espanyol,4,2,69%,5,91%,3.1,Win
+29,20-05-2023,La Liga,Matchweek 35,Home,Real Sociedad,1,2,67%,4,86%,1.5,Loss
+30,23-05-2023,La Liga,Matchweek 36,Away,Valladoid,1,3,69%,6,86%,1.7,Loss
+31,28-05-2023,La Liga,Matchweek 37,Home,Mallorca,3,0,78%,8,88%,3.6,Win
+32,04-06-2023,La Liga,Matchweek 38,Away,Celta Vigo,1,2,71%,2,88%,1.2,Loss
+33,13-08-2023,La liga,Matchweek 1,Away,Getafe,0,0,74%,3,89%,1.4,Draw
+34,20-08-2023,La liga,Matchweek 2,Home,Cadiz,2,0,74%,10,89%,3.4,Win
+35,27-08-2023,La liga,Matchweek 3,Away,Villarreal,4,3,60%,6,83%,3.1,Win
+36,03-09-2023,La liga,Matchweek 4,Away,Osasuna,2,1,69%,3,89%,2.1,Win
+37,16-09-2023,La liga,Matchweek 5,Home,Real Betis,5,0,65%,9,89%,2.4,Win
+38,19-09-2023,UCL,Group stage,Home,Antwerp,5,0,70%,9,91%,2.8,Win
+39,23-09-2023,La liga,Matchweek 6,Home,Celta Vigo,3,2,74%,6,89%,1.6,Win
+40,26-09-2023,La liga,Matchweek 7,Away,Mallorca,2,2,69%,4,84%,1.9,Draw
+41,29-09-2023,La liga,Matchweek 8,Home,Sevilla,1,0,58%,4,83%,2.4,Win
+42,04-10-2023,UCL,Group stage,Away,Porto,1,0,56%,4,84%,1.3,Win
+43,08-10-2023,La liga,Matchweek 9,Away,Granada,2,2,80%,10,88%,3.1,Draw
+44,22-10-2023,La liga,Matchweek 10,Home,Athletic Club,1,0,62%,7,84%,1.3,Win
+45,25-10-2023,UCL,Group stage,Home,Shakhtar,2,1,54%,6,84%,2.6,Win
+46,28-10-2023,La liga,Matchweek 11,Home,Real Madrid,1,2,53%,3,85%,1.5,Loss
+47,04-11-2023,La liga,Matchweek 12,Away,Real Sociedad,1,0,49%,4,79%,1.2,Win
+48,07-11-2023,UCL,Group stage,Away,Shakhtar,0,1,67%,1,87%,0.9,Loss
+49,12-11-2023,La liga,Matchweek 13,Home,Alaves,2,1,71%,5,87%,1.6,Win
+50,25-11-2023,La liga,Matchweek 14,Away,Rayo Vallecano,1,1,67%,4,88%,1.1,Draw
+51,28-11-2023,UCL,Group stage,Home,Porto,2,1,54%,7,81%,1.1,Win
+52,03-12-2023,La liga,Matchweek 15,Home,Atletico Madrid,1,0,58%,2,89%,2.6,Win
+53,10-12-2023,La liga,Matchweek 16,Home,Girona,2,4,54%,11,87%,3.7,Loss
+54,13-12-2023,UCL,Group stage,Away,Antwerp,2,3,69%,5,79%,1.1,Loss
+55,16-12-2023,La liga,Matchweek 17,Away,Valencia,1,1,63%,7,85%,3.2,Draw
+56,20-12-2023,La liga,Matchweek 18,Home,Almeria,3,2,65%,11,88%,3.4,Win
+57,04-01-2024,La liga,Matchweek 19,Away,Las Palmas,2,1,56%,4,81%,2.4,Win
+58,07-01-2024,Copa del Rey,Round of 32,Away,Barbastro,3,2,72%,11,86%,2.7,Win
+59,11-01-2024,Supercopa,Semi finals,Home,Osasuna,2,0,68%,7,83%,1.8,Win
+60,14-01-2024,Supercopa,Finals,Away,Real Madrid,1,4,57%,7,86%,0.9,Loss
+61,18-01-2024,Copa del Rey,Round of 16,Away,Unionistas Sal,3,1,74%,7,88%,2.7,Win
+62,21-01-2024,La liga,Matchweek 21,Away,Real Betis,4,2,63%,4,84%,3.1,Win
+63,24-01-2024,Copa del Rey,Quarter finals,Away,Athletic Club,2,4,61%,4,89%,1.5,Loss
+64,27-01-2024,La liga,Matchweek 22,Home,Villarreal,3,5,70%,9,86%,2.2,Loss
+65,31-01-2024,La liga,Matchweek 20,Home,Osasuna,1,0,68%,4,88%,1.9,Win
+66,03-02-2024,La liga,Matchweek 23,Away,Alaves,3,1,64%,5,87%,1.2,Win
+67,11-02-2024,La liga,Matchweek 24,Home,Granada,3,3,65%,5,85%,2.3,Draw
+68,17-02-2024,La liga,Matchweek 25,Away,Celta Vigo,2,1,66%,4,84%,1.5,Win
+69,21-02-2024,UCL,Round of 16,Away,Napoli,1,1,50%,6,83%,0.7,Draw
+70,24-02-2024,La liga,Matchweek 26,Home,Getafe,4,0,67%,9,85%,3.1,Win
+71,03-03-2024,La liga,Matchweek 27,Away,Athletic Club,0,0,60%,1,85%,0.7,Draw
+72,08-03-2024,La liga,Matchweek 28,Home,Mallorca,1,0,63%,5,87%,1.9,Win
+73,12-03-2024,UCL,Round of 16,Home,Napoli,3,1,48%,10,81%,2.7,Win
+74,17-03-2024,La liga,Matchweek 29,Away,Atletico Madrid,3,0,59%,5,86%,1.5,Win
+75,20-03-2024,La liga,Matchweek 30,Home,Las Palmas,1,0,69%,2,87%,1.7,Win
+76,10-04-2024,UCL,Quarter finals,Away,PSG,3,2,41%,6,82%,1.9,Win
+77,13-04-2024,La liga,Matchweek 31,Away,Cadiz,1,0,62%,1,83%,0.9,Win
+78,16-04-2024,UCL,Quarter finals,Home,PSG,1,4,33%,3,73%,1.1,Loss
+79,21-04-2024,La liga,Matchweek 32,Away,Real Madrid,2,3,53%,6,88%,1.4,Loss
+80,29-04-2024,La liga,Matchweek 33,Home,Valencia,4,2,80%,13,89%,2.2,Win
+81,04-05-2024,La liga,Matchweek 34,Away,Girona,2,4,60%,6,87%,2.6,Loss
+82,13-05-2024,La liga,Matchweek 35,Home,Real Sociedad,2,0,56%,4,87%,2.1,Win
+83,16-05-2024,La liga,Matchweek 36,Away,Almeria,2,0,64%,7,89%,1.6,Win
+84,19-05-2024,La liga,Matchweek 37,Home,Rayo Vallecano,3,0,72%,6,89%,1.3,Win
+85,26-05-2024,La liga,Matchweek 38,Away,Sevilla,2,1,61%,6,90%,1.3,Win
+86,17-08-2024,La liga,Matchweek 1,Away,Valencia,2,1,63%,5,85%,3.2,Win
+87,24-08-2024,La liga,Matchweek 2,Home,Athletic Club,2,1,64%,5,87%,1.8,Win
+88,27-08-2024,La liga,Matchweek 3,Away,Rayo Vallecano,2,1,64%,5,83%,1.4,Win
+89,31-08-2024,La liga,Matchweek 4,Home,Valladoid,7,0,70%,11,90%,4.7,Win
+90,15-09-2024,La liga,Matchweek 5,Away,Girona,4,1,55%,9,85%,1.9,Win
+91,19-09-2024,UCL,League Phase,Away,Monaco,1,2,44%,1,79%,0.4,Loss
+92,22-09-2024,La liga,Matchweek 6,Away,Villarreal,5,1,63%,9,89%,3.9,Win
+93,25-09-2024,La liga,Matchweek 7,Home,Getafe,1,0,76%,4,86%,1.9,Win
+94,28-09-2024,La liga,Matchweek 8,Away,Osasuna,2,4,73%,6,86%,0.8,Loss
+95,01-10-2024,UCL,League Phase,Home,Young Boys,5,0,69%,8,89%,3.4,Win
+96,06-10-2024,La liga,Matchweek 9,Away,Alaves,3,0,71%,9,90%,2.7,Win
+97,20-10-2024,La liga,Matchweek 10,Home,Sevilla,5,1,67%,1,78%,3.8,Win
+98,23-10-2024,UCL,League Phase,Home,Bayern Munich,4,1,40%,4,81%,2.2,Win
+99,26-10-2024,La liga,Matchweek 11,Away,Real Madrid,4,0,57%,7,83%,2.6,Win
+100,03-11-2024,La liga,Matchweek 12,Home,Espanyol,3,1,76%,9,90%,1.8,Win
+101,06-11-2024,UCL,League Phase,Away,Red Star,5,2,69%,9,88%,3.6,Win
+102,10-11-2024,La liga,Matchweek 13,Away,Real Sociedad,0,1,69%,0,82%,0.7,Loss
+103,23-11-2024,La liga,Matchweek 14,Away,Celta Vigo,2,2,59%,4,83%,1.8,Draw
+104,26-11-2024,UCL,League Phase,Home,Brest,3,0,75%,6,89%,2.8,Win
+105,30-11-2024,La liga,Matchweek 15,Home,Las Palmas,1,2,69%,8,86%,2.3,Loss
+106,03-12-2024,La liga,Matchweek 19,Away,Mallorca,5,1,59%,8,82%,5.1,Win
+107,07-12-2024,La liga,Matchweek 16,Away,Real Betis,2,2,62%,3,83%,1.9,Draw
+108,11-12-2024,UCL,League Phase,Away,Dortmund,3,2,54%,8,85%,2.1,Win
+109,15-12-2024,La liga,Matchweek 17,Home,Leganes,0,1,79%,3,86%,2.6,Loss
+110,21-12-2024,La liga,Matchweek 18,Home,Atletico Madrid,1,2,62%,7,87%,2.7,Loss
+111,04-01-2025,Copa del Rey,Round of 32,Away,Barbastro,4,0,75%,9,87%,2.5,Win
+112,08-01-2025,Supercopa,Semi finals,Away,Athletic Club,2,0,56%,8,86%,1.2,Win
+113,12-01-2025,Supercopa,Finals,Away,Real Madrid,5,2,51%,8,84%,3.3,Win
+114,15-01-2025,Copa del Rey,Round of 16,Home,Real Betis,5,1,69%,9,89%,2.9,Win
+115,18-01-2025,La liga,Matchweek 20,Away,Getafe,1,1,77%,5,83%,2.3,Draw
+116,21-01-2025,UCL,League Phase,Away,Befica,5,4,74%,9,88%,3.6,Win
+117,26-01-2025,La liga,Matchweek 21,Home,Valencia,7,1,71%,11,89%,4.4,Win
+118,29-01-2025,UCL,League Phase,Home,Atalanta,2,2,67%,7,90%,2.4,Draw
+119,02-02-2025,La liga,Matchweek 22,Home,Alaves,1,0,69%,4,87%,1.1,Win
+120,06-02-2025,Copa del Rey,Quarter finals,Away,Valencia,5,0,77%,9,82%,2.7,Win
+121,09-02-2025,La liga,Matchweek 23,Away,Sevilla,4,1,60%,6,84%,1.9,Win
+122,17-02-2025,La liga,Matchweek 24,Home,Rayo Vallecano,1,0,59%,4,85%,2.3,Win

@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, blue, red);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(1, 2, 37, 0.8);
+    padding: 15px 30px;
+    position: relative;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+.navbar ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#ffcc00 ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+
+.logo-top-right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.logo-top-right img {
+    width: 60px;
+    height: auto;
+}
+
+.banner {
+    background: url('images/home.png') no-repeat center center/cover;
+    text-align: center;
+    padding: 250px 0;
+    position: relative;
+}
+
+.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(54, 1, 1, 0);
+    display: flex;
+    justify-content: flex-end; /* Move content to the bottom */
+    align-items: flex-start; /* Align to the left */
+    padding: 50px;
+}
+
+.banner-content {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px; /* Space from bottom */
+}
+
+.banner-content h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 4.5rem;
+    color: #ffcc00;
+}
+
+.banner-content p {
+    max-width: 800px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.trophies {
+    text-align: center;
+    margin: 0px 0;
+    background: url('images/trophies.png') no-repeat center center/cover;
+    padding: 70px 0;
+}
+
+.trophies h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 31, 91, 0.8);
+    padding: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .logo-top-right img {
+        width: 50px;
+    }
+}

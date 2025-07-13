@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official FC Barcelona fan page. Explore the club's history, statistics, and predictions.">
+    <title>FC Barcelona</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+    <header>
+        <div class="navbar"> 
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/club">CLUB</a></li>
+                    <li><a href="/visualization">VISUALIZATION</a></li>
+                    <li><a href="/prediction">PREDICTION</a></li>
+                </ul>
+            </nav>
+            <div class="logo-top-right">
+                <img src="{{ url_for('static', filename='images/barcelona.png') }}" alt="FC Barcelona Logo">
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="overlay">
+            <div class="banner-content">
+            </div>
+        </div>
+    </section>
+    
+    <section class="trophies">
+        <div class="trophies-content">
+        </div>
+    </section>
+
+    <footer>
+        <h2>Follow FC Barcelona on social media</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/fcbarcelona" target="_blank">
+                <img src="{{ url_for('static', filename='images/facebook.png') }}" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/FCBarcelona" target="_blank">
+                <img src="{{ url_for('static', filename='images/xtwitter.png') }}" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/user/fcbarcelona" target="_blank">
+                <img src="{{ url_for('static', filename='images/yt.png') }}" alt="YouTube">
+            </a>
+            <a href="https://www.instagram.com/fcbarcelona/" target="_blank">
+                <img src="{{ url_for('static', filename='images/insta.png') }}" alt="Instagram">
+            </a>
+            <a href="https://open.spotify.com/user/fcbarcelona" target="_blank">
+                <img src="{{ url_for('static', filename='images/spotify.png') }}" alt="Spotify">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
