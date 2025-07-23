@@ -5,6 +5,10 @@
 This project aims to predict the outcomes of FC Barcelona football matches — Win, Draw, or Loss — using machine learning models trained on a self-created dataset. The application is built using Python, Flask, and Scikit-learn and provides predictions based on user inputs such as the opponent and match location (Home/Away).
 The model considers several football-specific features like possession, shots on target, pass accuracy, expected goals, and more to make outcome predictions.
 
+<img width="3520" height="1080" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/3793f4bd-470d-46e1-894b-b6aea060ee12" />
+<img width="3520" height="1080" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/5e035149-c34b-4a13-abad-ff22684a44e9" />
+<img width="3520" height="1080" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/ff2b0585-8447-4c0f-a31c-9b7d28120d1c" />
+
 🛠️ Technologies Used
 
 Python
@@ -88,7 +92,3 @@ Home or Away
 
 The app will return the probabilities of Win / Draw / Loss.
 
-
-<img width="3520" height="1080" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/3793f4bd-470d-46e1-894b-b6aea060ee12" />
-<img width="3520" height="1080" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/5e035149-c34b-4a13-abad-ff22684a44e9" />
-<img width="3520" height="1080" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/ff2b0585-8447-4c0f-a31c-9b7d28120d1c" />
